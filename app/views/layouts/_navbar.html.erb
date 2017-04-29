@@ -3,20 +3,35 @@
 
 <nav style="">
   <div class="nav-wrapper #00acc1 cyan darken-1">
+
+<!-- logo and brand -->
     <a href="#!" class="brand-logo left" style="padding-left:10px;">
       <i class="large material-icons">language</i>
       VanTech Web</a>
 
-<!-- Dropdown profile menu-->
-      <ul class="right hide-on-small-and-down">
-        <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Username<i class="material-icons right">arrow_drop_down</i></a></li>
+
+      <ul class="right">
+          <li><%= link_to 'Sign Up', new_user_registration_path %> </li>
+          <li><%= link_to 'Login', new_user_session_path %> </li>
       </ul>
+
+
+<!-- IF SIGNED IN Dropdown profile menu-->
+      <!-- <ul class="right hide-on-small-and-down">
+        <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Username<i class="material-icons right">arrow_drop_down</i></a></li>
+      </ul> -->
       <!-- implement if current_user_signed_in? -->
       <!-- then, show profile rounded logo instead of text -->
+
+
   </div>
 </nav>
 
-<!-- dropdown profile menu  -->
+
+
+
+
+<!-- IF SIGNED IN dropdown profile menu, leave where it is -->
   <ul id="dropdown1" class="dropdown-content">
     <li><a href="#!">Profile</a></li>
     <li><a href="#!">Dashboard</a></li>
