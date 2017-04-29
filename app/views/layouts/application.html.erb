@@ -6,12 +6,19 @@
 
     <%= stylesheet_link_tag    'application', media: 'all' %>
     <%= javascript_include_tag 'application' %>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   </head>
 
   <body>
+    <%= render 'layouts/navbar' %>
+    <%= render 'layouts/sidenav' %>
 
     <p class="notice"><%= notice %></p>
     <p class="alert"><%= alert %></p>
+
     <%= yield %>
+
+    <%= render 'layouts/footer' %>
+
   </body>
 </html>
