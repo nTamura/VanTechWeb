@@ -1,24 +1,10 @@
-# README
+# VanTechWeb
+**Vancouver Technology Hub**
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+![alt text](./assets/images/screenshots/main.png)
+![Alt text](./assets/images/screenshots/main.png?raw=true "Title")
 
-Things you may want to cover:
+### About
+A group collaboration project during the CodeCore Developer Bootcamp over a span of the weekend fueled by doughnuts and coffee. The goal was to create a network site to access information on different tech companies in the Vancouver area.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+App is built with Rails with Materialize CSS framework.
